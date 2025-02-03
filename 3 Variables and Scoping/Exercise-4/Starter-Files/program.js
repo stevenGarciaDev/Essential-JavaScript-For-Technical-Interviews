@@ -9,7 +9,7 @@ function hoistingExample() {
     // Step 1: Try logging a `var` variable before its assignment
     // Hint: `var` variables are hoisted but initialized with `undefined` by default.
     try {
-        console.log(`myVar before assignment:`); // Add the variable here
+        console.log(`myVar before assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
@@ -19,7 +19,7 @@ function hoistingExample() {
 
     // Step 2: Log the `var` variable after assignment
     try {
-        console.log(`myVar after assignment:`); // Add the variable here
+        console.log(`myVar after assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
@@ -27,7 +27,7 @@ function hoistingExample() {
     // Step 3: Try logging a `let` variable before its declaration
     // Hint: `let` variables are hoisted but remain in a "temporal dead zone" until initialized.
     try {
-        console.log(`myLet before assignment:`); // Add the variable here
+        console.log(`myLet before assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
@@ -37,7 +37,7 @@ function hoistingExample() {
 
     // Step 4: Log the `let` variable after assignment
     try {
-        console.log(`myLet after assignment:`); // Add the variable here
+        console.log(`myLet after assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
@@ -45,7 +45,7 @@ function hoistingExample() {
     // Step 5: Try logging a `const` variable before its declaration
     // Hint: `const` behaves similarly to `let` but must also be assigned a value at declaration.
     try {
-        console.log(`myConst before assignment:`); // Add the variable here
+        console.log(`myConst before assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
@@ -55,7 +55,7 @@ function hoistingExample() {
 
     // Step 6: Log the `const` variable after assignment
     try {
-        console.log(`myConst after assignment:`); // Add the variable here
+        console.log(`myConst after assignment:`); // TODO: Add the variable here
     } catch (error) {
         console.log('Error: ' + error);
     }
